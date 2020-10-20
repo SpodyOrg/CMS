@@ -2,6 +2,9 @@
 <html lang="en">
 <?php 
     include("assets/inc/db_conn.php");
+    
+    $sql = "SELECT * FROM siteinfo";
+    $result = $conn->query($sql);
 ?>
 <head>
     <meta charset="UTF-8">

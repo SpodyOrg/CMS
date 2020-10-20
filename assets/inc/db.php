@@ -8,7 +8,4 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    
-    $sql = "SELECT * FROM blog ORDER BY id desc";
-    $result = $conn->query($sql);
 ?>
