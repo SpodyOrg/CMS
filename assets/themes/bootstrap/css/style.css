@@ -1876,7 +1876,23 @@ section article .offset-11 {
   section article .offset-sm-11 {
     margin-left: 91.666667%;
   }
+
+  section article .offset-sm12{
+    margin-left: 0%;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap-reverse;
+    font-size: inherit;
+  }
 }
 
-
+section article {
+  margin-left: 0%;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap-reverse;
+  font-size: inherit;
+}
 /* line 1055 */
