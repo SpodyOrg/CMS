@@ -2690,7 +2690,8 @@ kbd {
 	margin-left: $divider-offset;
 	width: calc(100% - #{$divider-offset});
   }
-  @debug 1px == 1px; // true
+
+@debug 1px == 1px; // true
 @debug 1px != 1em; // true
 @debug 1 != 1px; // true
 @debug 96px == 1in; // true
