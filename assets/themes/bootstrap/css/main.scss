@@ -1822,3 +1822,56 @@ mark {
 		max-width: 1140px;
 	}
 }
+
+@media (min-width: 900px){
+	.container{
+		max-width: 878px;
+	}
+	
+	.container-sm{
+		max-width:  878px;
+	}
+
+	.container-md{
+		max-width:  878px;
+	}
+
+	.container-lg{
+		max-width:   878px;
+	}
+
+	.container-xl{
+		max-width:   878px;
+	}
+
+	.container-xxl{
+		max-width:   878px;
+	}
+}
+
+@media (max-width: 768px){
+	
+	.container{
+		min-width: 320px;
+	}
+
+	.container-sm{
+		min-width: 320px;
+	}
+	
+	.container-md{
+		min-width: 320px;
+	}
+
+	.container-lg{
+		min-width: 320px;
+	}
+	
+	.container-xl{
+		min-width: 360px;
+	}
+	
+	.container-xxl{
+		min-width: 400px;
+	}
+}
