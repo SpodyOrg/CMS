@@ -9,8 +9,14 @@ body {
 }
 
 
+//scss base inverse
 
+@use 'base';
 
+.inverse {
+  background-color: base.$primary-color;
+  color: white;
+}
 
 @mixin transform($property) {
 	-webkit-transform: $property;
