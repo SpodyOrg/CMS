@@ -1905,6 +1905,40 @@ mark {
 	.container-xxl{
 		min-width: 1190px;
 	}
+}
 
+pre {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	overflow: auto;
+	display: block;
+	font-size: 87.5%;
+	color: #212529;
+	
+	code {
+		font-size: inherit;
+		color: inherit;
+		word-break: normal;
+	}
+}
 
+.pre-scrollable{
+	font-family: comic sans-serif;
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 0.8rem;
+	overflow: auto;
+	display: inline-block;
+	font-size: 90%;
+	color: #666666;
+	background-color: rgba(128, 128, 0, 0.7);
+		code{
+			font-size: initial;
+			color: initial;
+			word-break: normal;
+			-ms-word-break: unset;
+			font: append($list1: 3, $val: 10, $separator: append);
+	}
 }
