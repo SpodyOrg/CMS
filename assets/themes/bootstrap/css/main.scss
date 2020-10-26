@@ -2650,3 +2650,25 @@ kbd {
 .mr-n5 {
 	margin-right: -3rem !important;
 }
+
+.mark{
+	margin-right: 100%;
+	margin-bottom: 100%;
+	padding: 25 25 25 25;
+	color: #FFF;
+	background-color: #666666;
+
+	.mark::after{
+		content: "arrow-point-to-top";
+		color: #fff;
+		background-color: #666666;
+	}
+}
+
+@mixin inset-divider-offset($offset, $padding) {
+	$divider-offset: (2 * $padding) + $offset;
+	@debug "divider offset: #{$divider-offset}";
+  
+	margin-left: $divider-offset;
+	width: calc(100% - #{$divider-offset});
+  }
