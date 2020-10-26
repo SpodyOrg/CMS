@@ -1942,3 +1942,18 @@ pre {
 			font: append($list1: 3, $val: 10, $separator: append);
 	}
 }
+
+kbd {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 0.8em;
+	padding: 0.1rem 0.2rem;
+	font-size: 90%;
+	color: #fff;
+	background-color: #666666;
+	border-radius: 0.1rem;
+	kbd {
+		padding: 0.01rem;
+		font-size: 100%;
+		font-weight: 650;
+	}
+}
