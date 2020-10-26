@@ -2716,3 +2716,7 @@ $theme: ("venus": #998099, "nebula": #d2e1dd);
 
 @debug get-function("rgba") == get-function("rgba"); // true
 @debug get-function("rgba") != get-function("hsla"); // true
+
+@debug get-function("#") != get-function("#"); //true
+@debug get-function("font-size") != get-function("font-size"); //true  
+
