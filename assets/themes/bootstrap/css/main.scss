@@ -1870,8 +1870,41 @@ mark {
 	.container-xl{
 		min-width: 360px;
 	}
-	
+
 	.container-xxl{
 		min-width: 400px;
 	}
+}
+
+@media (max-width:1200px){
+
+	.container{
+		min-width: 1140px;
+	}
+
+	.container-fluid{
+		min-width: 1140px;
+	}
+
+	.container-lg{
+		min-width: 1140px;
+	}
+
+	.container-md{
+		min-width: 1140px;
+	}
+
+	.container-sm{
+		min-width: 1140px;
+	}
+
+	.container-xl{
+		min-width: 1160px;
+	}
+
+	.container-xxl{
+		min-width: 1190px;
+	}
+
+
 }
