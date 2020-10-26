@@ -26,6 +26,25 @@ body {
   .box { @include transform(rotate(30deg)); 
 }
 
+//debuggers
+
+@debug selector.is-superselector("a", "a.disabled"); // true
+@debug selector.is-superselector("a.disabled", "a"); // false
+@debug selector.is-superselector("a", "sidebar a"); // true
+@debug selector.is-superselector("sidebar a", "a"); // false
+@debug selector.is-superselector("a", "a"); // true
+
+//apppend debuggers
+
+@debug selector.append("a", ".disabled"); // a.disabled
+@debug selector.append(".accordion", "__copy"); // .accordion__copy
+@debug selector.append(".accordion", "__copy, __image");
+// .accordion__copy, .accordion__image
+
+
+
+
+
 /* This CSS will print because %message-shared is extended. */
 %message-shared {
 	border: 1px solid #ccc;
